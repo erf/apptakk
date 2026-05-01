@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<title>APPTAKK</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Flutter app dev">
+<meta name="keywords" content="Flutter,mobile,dev,firebase">
+
+<link rel="stylesheet" href="style.css">
+
+<div class="content">
+
+	<h1>APPTAKK</h1>
+
+	<p><i>portfolio for Erlend</i></p>
+	<ul><a href="mailto:apptakk@gmail.com" target="_blank">apptakk@gmail.com</a></ul>
+	<ul><a href="https://github.com/erf" target="_blank">github.com/erf</a></ul>
+	<ul><a href="https://pub.dev/publishers/apptakk.com/packages" target="_blank">pub.dev </a></ul>
+	<ul><a href="https://medium.com/@erlendf" target="_blank">medium.com/@erlendf</a></ul>
+
+	<br>
+
+	<h1>APPS</h1>
+	<div class="projects" id="apps-list"></div>
+
+	<br>
+	<h1>OPEN-SOURCE</h1>
+	<div class="projects" id="repo-list"></div>
+
+	<br>
+	<ul><a class="policy" href="app_privacy.html" target="_blank">Privacy policy</a></ul>
+	<ul><a class="policy" href="app_terms.html" target="_blank">Terms of use</a></ul>
+</div>
+
+<script src="elite.js"></script>
+<script src="data.js"></script>
+
+<script>
+
+	function build(data) {
+		return data
+			.map((repo) => el('div', [
+				el('h3', repo.name),
+				el('div', repo.description),
+				el('div', repo.urls.map((url) =>
+					el('a', '', { href: url.src, target: '_blank' }, [
+						el('img', '', { class: 'icon', src: url.icon })
+					])
+				))
+			]))
+	}
+
+	set('apps-list', build(apps))
+
+	set('repo-list', build(repos))
+
+</script>
