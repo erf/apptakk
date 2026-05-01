@@ -1,5 +1,13 @@
 const apps = [
     {
+        name: 'Kanbanero',
+        description: 'Kanban Tasks Lite',
+        urls: [
+            { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
+            { src: 'https://kanbanero.app', icon: 'images/icons8-globe.png', },
+        ]
+    },
+    {
         name: 'Cashier',
         description: 'Minimal budget app',
         urls: [
@@ -13,13 +21,6 @@ const apps = [
             { src: 'https://apps.apple.com/app/id1500199497', icon: 'images/Apple-50.png', },
             { src: 'https://play.google.com/store/apps/details?id=com.apptakk.cashplan', icon: 'images/Android-OS-50.png', },
             { src: 'https://www.youtube.com/watch?v=DjHUDcpSRX8', icon: 'images/icons8-youtube.png', },
-        ]
-    },
-    {
-        name: 'Kanbanero',
-        description: 'Kanban Tasks Lite',
-        urls: [
-            { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
         ]
     },
     {
