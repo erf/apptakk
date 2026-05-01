@@ -1,7 +1,7 @@
 const apps = [
     {
         name: 'Kanbanero',
-        description: 'Kanban Tasks Lite',
+        description: 'Kanban boards as JSON for macOS',
         urls: [
             { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
             { src: 'https://kanbanero.app', icon: 'images/icons8-globe.png', },
