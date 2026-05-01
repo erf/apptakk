@@ -2,8 +2,9 @@
 
 Personal portfolio site for Erlend, hosted on GitHub Pages.
 
-The `docs/` folder contains privacy policies and terms of use linked from
-various published apps — please keep these paths stable.
+The `docs/` folder contains shared privacy/terms templates, and the
+`policies/` folder contains per-app privacy policies and terms linked from
+published apps — please keep these paths stable.
 
 ## Local preview
 
