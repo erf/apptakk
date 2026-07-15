@@ -1,5 +1,19 @@
 const apps = [
     {
+        name: 'Nevs',
+        description: 'Your daily news, summarized',
+        urls: [
+            { src: 'https://nevs.io', icon: 'images/icons8-globe.png', },
+        ]
+    },
+    {
+        name: 'Quizzly',
+        description: 'AI-Powered Multiplayer Trivia',
+        urls: [
+            { src: 'https://quizzly.app', icon: 'images/icons8-globe.png', },
+        ]
+    },
+    {
         name: 'Kanbanero',
         description: 'Kanban boards as JSON for macOS',
         urls: [
