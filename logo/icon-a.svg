@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- "A" icon: black rounded square, white A -->
+  <rect width="512" height="512" rx="96" fill="#000000"/>
+  <path d="M256 116 L388 396 L336 396 L256 216 L176 396 L124 396 Z M196 320 L316 320 L316 360 L196 360 Z"
+        fill="#ffffff" fill-rule="evenodd"/>
+</svg>
