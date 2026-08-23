@@ -29,7 +29,7 @@ html {
 	padding: 56px 32px 96px;
 }
 
-/* Hero */
+/* Hero — centered */
 header.hero {
 	text-align: center;
 	padding-bottom: 48px;
@@ -94,14 +94,14 @@ h1.section:first-of-type {
 	gap: 18px;
 }
 
-.projects > div {
+.projects>div {
 	border: 1px solid var(--border);
 	border-radius: 14px;
 	padding: 22px;
 	transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
-.projects > div:hover {
+.projects>div:hover {
 	border-color: #cccccc;
 	transform: translateY(-2px);
 }
@@ -112,7 +112,7 @@ h3 {
 	margin-bottom: 2px;
 }
 
-.projects > div > div:nth-child(2) {
+.projects>div>div:nth-child(2) {
 	color: var(--muted);
 	font-size: 0.85rem;
 	margin-bottom: 10px;
