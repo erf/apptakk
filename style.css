@@ -130,6 +130,11 @@ h3 {
 	opacity: 1;
 }
 
+.projects>div>div:last-child {
+	display: flex;
+	gap: 8px;
+}
+
 .policy {
 	font-size: 0.75rem;
 	color: var(--muted);
