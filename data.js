@@ -8,14 +8,14 @@ const apps = [
     },
     {
         name: 'Quizzly',
-        description: 'AI-Powered Multiplayer Trivia',
+        description: 'AI-powered multiplayer trivia',
         urls: [
             { src: 'https://quizzly.app', icon: 'images/icons8-globe.png', },
         ]
     },
     {
         name: 'Kanbanero',
-        description: 'A lite kanban app for macOS.',
+        description: 'A lite kanban app for macOS',
         urls: [
             { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
             { src: 'https://kanbanero.app', icon: 'images/icons8-globe.png', },
@@ -39,7 +39,7 @@ const apps = [
     },
     {
         name: 'Countess',
-        description: 'Tap to Count',
+        description: 'Tap to count',
         urls: [
             { src: 'https://apps.apple.com/app/id988588637', icon: 'images/Apple-50.png', },
         ]
@@ -53,7 +53,7 @@ const apps = [
     },
     {
         name: 'Coinport',
-        description: 'Altcoin Portfolio',
+        description: 'Altcoin portfolio',
         urls: [
             { src: 'https://apps.apple.com/app/id1252011703', icon: 'images/Apple-50.png', },
         ]
@@ -81,7 +81,7 @@ const apps = [
     },
     {
         name: 'Atelie',
-        description: 'Art platform (Freelance 2023)',
+        description: 'Art platform (freelance, 2023)',
         urls: [
             { src: 'https://apps.apple.com/app/atelie/id1629244383', icon: 'images/Apple-50.png', },
             { src: 'https://play.google.com/store/apps/details?id=art.atelie.atelier&pli=1', icon: 'images/Android-OS-50.png', },
@@ -100,14 +100,14 @@ const apps = [
 const repos = [
     {
         name: 'vid',
-        description: 'vi-like editor in Dart ',
+        description: 'vi-like editor in Dart',
         urls: [
             { src: 'https://github.com/erf/vid', icon: 'images/icons8-github.png', },
         ]
     },
     {
         name: 'vis-plug',
-        description: 'plugin-manager for vis',
+        description: 'Plugin manager for vis',
         urls: [
             { src: 'https://github.com/erf/vis-plug', icon: 'images/icons8-github.png', },
         ]

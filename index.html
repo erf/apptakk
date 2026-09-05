@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
 <title>APPTAKK</title>
 
 <meta charset="utf-8" />
@@ -20,49 +22,71 @@
 <meta name="twitter:image" content="https://apptakk.com/logo/og-image.png">
 
 <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div class="content">
+<main class="content">
 
 	<header class="hero">
-		<img class="logo" src="logo/icon-a.png" alt="APPTAKK logo">
 		<h1>APPTAKK</h1>
-		<p class="tagline">portfolio for Erlend</p>
-		<nav class="links">
+		<p class="tagline">Apps & open source by Erlend</p>
+		<nav class="links" aria-label="Find me online">
 			<a href="mailto:apptakk@gmail.com">Email</a>
-			<a href="https://github.com/erf" target="_blank">GitHub</a>
-			<a href="https://pub.dev/publishers/apptakk.com/packages" target="_blank">pub.dev</a>
-			<a href="https://medium.com/@erlendf" target="_blank">Medium</a>
+			<a href="https://github.com/erf" target="_blank" rel="noopener noreferrer">GitHub</a>
+			<a href="https://pub.dev/publishers/apptakk.com/packages" target="_blank" rel="noopener noreferrer">pub.dev</a>
+			<a href="https://medium.com/@erlendf" target="_blank" rel="noopener noreferrer">Medium</a>
 		</nav>
 	</header>
 
-	<h1 class="section">Apps</h1>
-	<div class="projects" id="apps-list"></div>
+	<section aria-labelledby="apps-heading">
+		<h2 class="section" id="apps-heading">Apps</h2>
+		<div class="projects" id="apps-list"></div>
+	</section>
 
-	<h1 class="section">Open-Source</h1>
-	<div class="projects" id="repo-list"></div>
+	<section aria-labelledby="repos-heading">
+		<h2 class="section" id="repos-heading">Open source</h2>
+		<div class="projects" id="repo-list"></div>
+	</section>
 
-</div>
+</main>
 
 <script src="elite.js"></script>
 <script src="data.js"></script>
 
 <script>
 
-	function build(data) {
-		return data
-			.map((repo) => el('div', [
-				el('h3', repo.name),
-				el('div', repo.description),
-				el('div', repo.urls.map((url) =>
-					el('a', '', { href: url.src, target: '_blank' }, [
-						el('img', '', { class: 'icon', src: url.icon })
-					])
-				))
-			]))
+	function destination(src) {
+		const host = new URL(src).hostname;
+		return ({
+			'apps.apple.com': 'App Store',
+			'play.google.com': 'Google Play',
+			'www.youtube.com': 'Video',
+			'github.com': 'GitHub',
+			'pub.dev': 'pub.dev',
+		})[host] || 'Website';
 	}
 
-	set('apps-list', build(apps))
+	function build(data) {
+		return data.map((repo) => el('article', '', { class: 'project' }, [
+			el('h3', repo.name),
+			el('p', repo.description, { class: 'description' }),
+			el('div', '', { class: 'project-links' }, repo.urls.map((url) =>
+				el('a', '', {
+					href: url.src,
+					target: '_blank',
+					rel: 'noopener noreferrer',
+					'aria-label': `${repo.name} — ${destination(url.src)} (opens in a new tab)`,
+				}, [
+					el('img', '', { class: 'icon', src: url.icon, alt: '', width: '16', height: '16' }),
+					el('span', destination(url.src)),
+				])
+			))
+		]));
+	}
 
-	set('repo-list', build(repos))
+	set('apps-list', build(apps));
+	set('repo-list', build(repos));
 
 </script>
+</body>
+</html>
