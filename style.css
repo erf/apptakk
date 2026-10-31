@@ -152,6 +152,16 @@ section + section {
 	opacity: 1;
 }
 
+.footer {
+	margin-top: 64px;
+	font-size: 0.875rem;
+	color: var(--muted);
+}
+
+.footer a {
+	color: var(--text);
+}
+
 .policy {
 	font-size: 0.75rem;
 	color: var(--muted);
