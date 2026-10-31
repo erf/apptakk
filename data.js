@@ -1,9 +1,9 @@
 const apps = [
     {
         name: 'Loyalee',
-        description: 'Stamp loyalty cards in a app',
+        description: 'Stamp loyalty cards in an app',
         urls: [
-            { src: 'https://loyalee.app', icon: 'images/icons8-webpage.png', },
+            { src: 'https://loyalee.app', icon: 'images/icons8-globe-50.png', },
             { src: 'https://apps.apple.com/app/id6804460661', icon: 'images/Apple-50.png', },
             { src: 'https://play.google.com/store/apps/details?id=app.loyalee.rewards', icon: 'images/Android-OS-50.png', },
         ]
@@ -12,27 +12,27 @@ const apps = [
         name: 'Nevs',
         description: 'Your daily news, summarized',
         urls: [
-            { src: 'https://nevs.io', icon: 'images/icons8-webpage.png', },
+            { src: 'https://nevs.io', icon: 'images/icons8-globe-50.png', },
         ]
     },
     {
         name: 'Quizzly',
-        description: 'Multiplayer trivia',
+        description: 'Multiplayer trivia game',
         urls: [
-            { src: 'https://quizzly.app', icon: 'images/icons8-webpage.png', },
+            { src: 'https://quizzly.app', icon: 'images/icons8-globe-50.png', },
         ]
     },
     {
         name: 'Kanbanero',
-        description: 'A lite kanban app for macOS',
+        description: 'A kanban app for macOS',
         urls: [
-            { src: 'https://kanbanero.app', icon: 'images/icons8-webpage.png', },
+            { src: 'https://kanbanero.app', icon: 'images/icons8-globe-50.png', },
             { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
         ]
     },
     {
         name: 'Cashplan',
-        description: 'Plan ahead',
+        description: 'Plan ahead budget app',
         urls: [
             { src: 'https://apps.apple.com/app/id1500199497', icon: 'images/Apple-50.png', },
             { src: 'https://play.google.com/store/apps/details?id=com.apptakk.cashplan', icon: 'images/Android-OS-50.png', },
@@ -44,7 +44,7 @@ const apps = [
 const repos = [
     {
         name: 'vid',
-        description: 'vi-like editor in Dart',
+        description: 'My vi-like editor in Dart',
         urls: [
             { src: 'https://github.com/erf/vid', icon: 'images/icons8-github.png', },
         ]
@@ -61,7 +61,7 @@ const repos = [
         description: 'Pragmatic state in Flutter',
         urls: [
             { src: 'https://github.com/erf/mu_state', icon: 'images/icons8-github.png' },
-            { src: 'https://pub.dev/packages/mu_state', icon: 'images/icons8-webpage.png', },
+            { src: 'https://pub.dev/packages/mu_state', icon: 'images/icons8-globe-50.png', },
         ]
     },
     {
@@ -69,7 +69,7 @@ const repos = [
         description: 'CSV localization for Flutter',
         urls: [
             { src: 'https://github.com/erf/csv_localizations', icon: 'images/icons8-github.png', },
-            { src: 'https://pub.dev/packages/csv_localizations', icon: 'images/icons8-webpage.png', },
+            { src: 'https://pub.dev/packages/csv_localizations', icon: 'images/icons8-globe-50.png', },
         ]
     },
 ]
