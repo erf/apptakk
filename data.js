@@ -50,6 +50,13 @@ const repos = [
         ]
     },
     {
+        name: 'vis-plug',
+        description: 'Plugin manager for vis',
+        urls: [
+            { src: 'https://github.com/erf/vis-plug', icon: 'images/icons8-github.png', },
+        ]
+    },
+    {
         name: 'mu_state',
         description: 'Pragmatic state in Flutter',
         urls: [
@@ -63,13 +70,6 @@ const repos = [
         urls: [
             { src: 'https://github.com/erf/csv_localizations', icon: 'images/icons8-github.png', },
             { src: 'https://pub.dev/packages/csv_localizations', icon: 'images/icons8-webpage.png', },
-        ]
-    },
-    {
-        name: 'vis-plug',
-        description: 'Plugin manager for vis',
-        urls: [
-            { src: 'https://github.com/erf/vis-plug', icon: 'images/icons8-github.png', },
         ]
     },
 ]
