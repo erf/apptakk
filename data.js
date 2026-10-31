@@ -1,5 +1,14 @@
 const apps = [
     {
+        name: 'Loyalee',
+        description: 'Stamp loyalty cards in a app',
+        urls: [
+            { src: 'https://loyalee.app', icon: 'images/icons8-globe.png', },
+            { src: 'https://apps.apple.com/app/id6804460661', icon: 'images/Apple-50.png', },
+            { src: 'https://play.google.com/store/apps/details?id=app.loyalee.rewards', icon: 'images/Android-OS-50.png', },
+        ]
+    },
+    {
         name: 'Nevs',
         description: 'Your daily news, summarized',
         urls: [
@@ -8,7 +17,7 @@ const apps = [
     },
     {
         name: 'Quizzly',
-        description: 'AI-powered multiplayer trivia',
+        description: 'Multiplayer trivia',
         urls: [
             { src: 'https://quizzly.app', icon: 'images/icons8-globe.png', },
         ]
@@ -17,15 +26,8 @@ const apps = [
         name: 'Kanbanero',
         description: 'A lite kanban app for macOS',
         urls: [
-            { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
             { src: 'https://kanbanero.app', icon: 'images/icons8-globe.png', },
-        ]
-    },
-    {
-        name: 'Cashier',
-        description: 'Minimal budget app',
-        urls: [
-            { src: 'https://apps.apple.com/app/id983409234', icon: 'images/Apple-50.png', },
+            { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
         ]
     },
     {
@@ -35,6 +37,13 @@ const apps = [
             { src: 'https://apps.apple.com/app/id1500199497', icon: 'images/Apple-50.png', },
             { src: 'https://play.google.com/store/apps/details?id=com.apptakk.cashplan', icon: 'images/Android-OS-50.png', },
             { src: 'https://www.youtube.com/watch?v=DjHUDcpSRX8', icon: 'images/icons8-youtube.png', },
+        ]
+    },
+    {
+        name: 'Cashier',
+        description: 'Minimal budget app',
+        urls: [
+            { src: 'https://apps.apple.com/app/id983409234', icon: 'images/Apple-50.png', },
         ]
     },
     {
