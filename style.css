@@ -1,7 +1,6 @@
 :root {
 	--text: #202124;
 	--muted: #686b70;
-	--border: #e8e9eb;
 	--accent: #235fc0;
 }
 
@@ -27,7 +26,6 @@ html {
 }
 
 .hero {
-	text-align: center;
 	padding-bottom: 64px;
 }
 
@@ -36,7 +34,6 @@ html {
 	line-height: 1.3;
 	font-weight: 700;
 	letter-spacing: 0.2em;
-	padding-left: 0.2em;
 }
 
 .tagline {
@@ -46,7 +43,6 @@ html {
 
 .links {
 	display: flex;
-	justify-content: center;
 	gap: 4px 20px;
 	flex-wrap: wrap;
 	margin-top: 16px;
@@ -96,23 +92,13 @@ section + section {
 .projects {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 16px;
+	gap: 28px 32px;
 }
 
 .project {
 	display: flex;
 	flex-direction: column;
 	min-width: 0;
-	border: 1px solid var(--border);
-	border-radius: 10px;
-	padding: 18px 18px 12px;
-	transition: border-color 150ms ease, background-color 150ms ease;
-}
-
-.project:hover,
-.project:focus-within {
-	border-color: #cdd0d5;
-	background: #fafbfc;
 }
 
 .project h3 {
@@ -188,7 +174,7 @@ section + section {
 
 	.projects {
 		grid-template-columns: minmax(0, 1fr);
-		gap: 12px;
+		gap: 24px;
 	}
 }
 
