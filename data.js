@@ -39,15 +39,6 @@ const apps = [
             { src: 'https://www.youtube.com/watch?v=DjHUDcpSRX8', icon: 'images/icons8-youtube.png', },
         ]
     },
-    {
-        name: 'Atelie',
-        description: 'Art platform (freelance, 2023)',
-        urls: [
-            { src: 'https://atelie.art', icon: 'images/icons8-webpage.png', },
-            { src: 'https://apps.apple.com/app/atelie/id1629244383', icon: 'images/Apple-50.png', },
-            { src: 'https://play.google.com/store/apps/details?id=art.atelie.atelier&pli=1', icon: 'images/Android-OS-50.png', },
-        ]
-    },
 ]
 
 const repos = [
