@@ -16,13 +16,6 @@ const apps = [
         ]
     },
     {
-        name: 'Quizzly',
-        description: 'Multiplayer trivia game',
-        urls: [
-            { src: 'https://quizzly.app', icon: 'images/icons8-globe-50.png', },
-        ]
-    },
-    {
         name: 'Kanbanero',
         description: 'A kanban app for macOS',
         urls: [
@@ -37,6 +30,13 @@ const apps = [
             { src: 'https://apps.apple.com/app/id1500199497', icon: 'images/Apple-50.png', },
             { src: 'https://play.google.com/store/apps/details?id=com.apptakk.cashplan', icon: 'images/Android-OS-50.png', },
             { src: 'https://www.youtube.com/watch?v=DjHUDcpSRX8', icon: 'images/icons8-youtube.png', },
+        ]
+    },
+    {
+        name: 'Quizzly',
+        description: 'Multiplayer trivia game',
+        urls: [
+            { src: 'https://quizzly.app', icon: 'images/icons8-globe-50.png', },
         ]
     },
 ]
