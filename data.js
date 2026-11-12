@@ -1,5 +1,13 @@
 const apps = [
     {
+        name: 'Kanbanero',
+        description: 'A kanban app for macOS',
+        urls: [
+            { src: 'https://kanbanero.app', icon: 'images/icons8-globe-50.png', },
+            { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
+        ]
+    },
+    {
         name: 'Loyalee',
         description: 'Stamp loyalty cards in an app',
         urls: [
@@ -13,14 +21,6 @@ const apps = [
         description: 'Your daily news, summarized',
         urls: [
             { src: 'https://nevs.io', icon: 'images/icons8-globe-50.png', },
-        ]
-    },
-    {
-        name: 'Kanbanero',
-        description: 'A kanban app for macOS',
-        urls: [
-            { src: 'https://kanbanero.app', icon: 'images/icons8-globe-50.png', },
-            { src: 'https://apps.apple.com/app/id1645553955', icon: 'images/Apple-50.png', },
         ]
     },
     {
